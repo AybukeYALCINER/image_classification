@@ -20,13 +20,12 @@ This part is run on CPU.<br>
 And there are some functions: <br>
 
 def plot_confusion_matrix(y_true, y_pred, classes, normalize=False, title=None, cmap=plt.cm.Blues) => # generate the confusion matrix of the predictions<br>
-# takes correct labels, predicted labels, class names,boolean normalize, title of the graph and background colors of the graph as parameter respectively 
+-- takes correct labels, predicted labels, class names,boolean normalize, title of the graph and background colors of the graph as parameter respectively 
 <br>
 def feature_extract(dirName) => # returns an array that holds array of extracted features of the images and array of the class names of the images.<br>
-# takes dirName as parameter that specify the which images extracted.
+  takes dirName as parameter that specify the which images extracted.
 <br>
-def imshow(inp, title=None) => # shows the number of batch size images and corresponding labels for each image.
-# takes images and names of the images as parameters
+def imshow(inp, title=None) => # shows the number of batch size images and corresponding labels for each image. and  takes images and names of the images as parameters
 <br>
 
 ## PART-II ##
@@ -38,11 +37,11 @@ NOT: We modify the last layer of the model because we have 10 classes and imgaNe
 And there are some functions: 
 <br>
 def plot_graph(val_loss, val_acc, tr_loss, tr_acc, num_epochs) => # plot the train and validation loss/accuracy plots and save it.<br>
-# takes array of validation losses, validation accuracy, train losses, train accuracy and number of epochs respectively.
+ takes array of validation losses, validation accuracy, train losses, train accuracy and number of epochs respectively.
 <br>
 def train_model(model, dataloaders, criterion, optimizer, device,num_epochs=25) => # train the model <br>
-# takes the model, dataloaders, criterion, optimizer, device(GPU or CPU) and number of epochs respectively as parameters<br>
-# returns model, array of validation accuracy, validation loss, train accuracy, train loss respectively<br>
+ takes the model, dataloaders, criterion, optimizer, device(GPU or CPU) and number of epochs respectively as parameters<br>
+ returns model, array of validation accuracy, validation loss, train accuracy, train loss respectively<br>
 
 ## PART-III ##
 
@@ -53,11 +52,11 @@ NOT: We modify the last layer of the model because we have 10 classes and imgaNe
 And there are some functions: <br>
 
 def plot_confusion_matrix(y_true, y_pred, classes, normalize=False, title=None, cmap=plt.cm.Blues) => # generate the confusion matrix of the predictions<br>
-# takes correct labels, predicted labels, class names,boolean normalize, title of the graph and background colors of the graph as parameter respectively <br>
+takes correct labels, predicted labels, class names,boolean normalize, title of the graph and background colors of the graph as parameter respectively <br>
 
 def feature_extract(dirName) => # returns an array that holds array of extracted features of the images and array of the class names of the images.<br>
-# takes dirName as parameter that specify the which images extracted<br>
+ takes dirName as parameter that specify the which images extracted<br>
 
 def train_model(model, dataloaders, criterion, optimizer, device,num_epochs=25) => # train the model <br>
-# takes the model, dataloaders, criterion, optimizer, device(GPU or CPU) and number of epochs respectively as parameters<br>
-# returns model, array of validation accuracy, validation loss, train accuracy, train loss respectively<br>
+ takes the model, dataloaders, criterion, optimizer, device(GPU or CPU) and number of epochs respectively as parameters<br>
+ returns model, array of validation accuracy, validation loss, train accuracy, train loss respectively<br>
