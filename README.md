@@ -28,6 +28,7 @@ def feature_extract(dirName) => # returns an array that holds array of extracted
 def imshow(inp, title=None) => # shows the number of batch size images and corresponding labels for each image.
 # takes images and names of the images as parameters
 <br>
+
 ## PART-II ##
 
 In this part, we finetune the VGG-16 model of the CNN which is pretrained on imageNet. After we finetune the model, we test it and return the top-1 and top-5 accuracy.<br>
